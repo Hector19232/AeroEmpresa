@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+<script src="https://kit.fontawesome.com/f14e6890ee.js" crossorigin="anonymous"></script>
+
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<!-- 	<link rel="stylesheet" type="text/css" href="C:\Users\Yuyu\Desktop\Sublime Text\Css\Proyectofinal\PHP\form.php"> -->
+    <link rel="icon" type="image/png" href="./img/LOGORFAVICON.png">
+	<link rel="stylesheet" type="text/css" href="./CSS/FORMULARIO.css">
+
+	<title>Formulario</title>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+	<!-- Header - menu -->
+	<div class="contenido-header">
+		<div class="logo">
+			<a href="Proyectofinal.html"><img src="./img/LOGOR.png" class="fotodelogo"></a>
+		</div>
+
+	<div class="menu" id="show-menu">
+		
+		<nav>
+			<ul>
+				<li ><a href="Proyectofinal.html">Inicio </a></li>
+
+				<li class="submenu">
+					<a href="Mision.html">Misiones <i class="fas fa-chevron-down"></i></a>
+
+					<ul class="children" id="children">
+						<li  style="background: lightgray; width: 80%;"><a href="Mision.html">Mision #1</a></li>
+						<li style="background: lightgray; width: 80%"><a href="Mision.html">Mision #2</a></li>
+						<li style="background: lightgray; width: 80%"><a href="Mision.html">Mision #3</a></li>
+					</ul>
+				</li>
+
+				<li class="sss"><a href="Galeria.html">Galeria</a></li>
+				<li class="menu-select"><a href="FORMULARIO.html">Formulario</a></li>
+			</ul>
+		</nav>
+	</div>
+
+		<div id="icono-de-menu">
+		<i class="fas fa-bars"></i>
+		 </div>
+	
+
+	</div>
+
+</header>
+
+<!-- Portada -->
+<div class="TODO" id="move-content">
+<div class="contenedor-foto"></div>
+
+
+
+<!-- Main -->
+<div class="contenido">
+<article>	
+<form action="C:\Users\Yuyu\Desktop\Sublime Text\Css\Proyectofinal\PHP\form.php" method="post" name="PaginaWeb">
+<h1> Formulario</h1>
+<h3>NOMBRE</h3>
+<input class="nombre" type="text" name="Nombre" placeholder="Ingrese su nombre"
+maxlength="50" size="20" required style="text-align: center;">
+
+
+<div class="Edad">
+	<h3 >Edad</h3>
+<select name="edad" >
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+</select>
+</div>
+
+
+
+<div class="sexo">
+<h3>SEXO</h3>
+<input type="radio" name="Sexo">Hombre<p>
+<input type="radio" name="Sexo"> Mujer<p>
+<input type="radio" name="Sexo"> Indefinido<p>
+</div>
+
+<div class="naves">
+<h3>¿Que categoria le gusta más?</h3>
+<input type="checkbox" name="Objetos"> Satelistes<p>
+<input type="checkbox" name="Objetos"> Naves<p>
+<input type="checkbox" name="Objetos"> Espacio exterior<p>
+<input type="checkbox" name="Objetos"> Planetas<p>
+</div>
+
+
+
+<br>
+<h3>OPINI&Oacute;N</h3>
+<textarea class="opinion" name="Opinion" rows="5" cols="50"
+placeholder="Escriba su Opinion"></textarea>
+<P>
+
+
+<input class="button" type="submit" name="submit"
+value="Submit">
+<input class="button" type="reset" name="Delete"
+value="Reset">
+</form>
+</div>
+</article>
+
+
+
+
+
+
+<!-- Footer -->
+<div class="footer">
+<footer>
+	<div class="logo-footer">
+		<img src="./img/LOGOR.png" alt="LOGO" class="logo-footer2">
+	</div>
+	<div class="redesF">
+		<a href="#"><i class="fab fa-facebook-messenger"></i></a>
+		<a href="#"><i class="fab fa-instagram"></i></a>
+		<a href="#"><i class="fab fa-google-plus-g"></i></a>
+	</div>
+	<hr>
+<h4>© 2020 AeroEmpresa - Todos los Derechos Reservador</h4>
+</footer>
+</div>
+
+</div>
+<div class="subir" id="up">
+
+			<i class="fas fa-hand-point-up"></i>
+		
+</div>
+<script src="../Proyectofinal/js(tproyecto_final)/script.js"></script>
+
+</body>
+</html>
